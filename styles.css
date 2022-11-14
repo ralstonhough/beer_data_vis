@@ -1,0 +1,55 @@
+body{
+    background:#9eabff;
+}
+
+#grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    position:fixed;
+    left:50vw;
+    top:50vh;
+    transform: translate(-50%,-50%);
+    height:90vh;
+    width:90vw;
+    margin:0;
+    align-items: baseline;
+}
+
+.fluid{
+    width:25%;
+    height:15%;
+    margin:1%;
+    background: hsla(46, 100%, 60%, 1);
+    animation: hop 200ms infinite;
+}
+
+.bubble{
+    position:fixed;
+    border-radius:50%;
+    animation: fizz 1s infinite;
+}
+
+@keyframes hop{
+    0%{
+        transform: translateY(0vh);
+    }
+    50%{
+        transform: translateY(2vh);
+    }
+    100%{
+        transform: translateY(0vh);
+    }
+}
+
+@keyframes fizz{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
