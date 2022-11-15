@@ -20,7 +20,7 @@ body{
     width:25%;
     height:15%;
     margin:1%;
-    background: hsla(46, 100%, 60%, 1);
+    background: linear-gradient(0deg, hsl(46, 100%, 60%) 0%, rgba(255,255,255,1) 100%);
     animation: hop 200ms infinite;
 }
 
@@ -28,6 +28,94 @@ body{
     position:fixed;
     border-radius:50%;
     animation: fizz 1s infinite;
+}
+
+.lager{
+    -webkit-mask-image: url(stein.png);
+    -webkit-mask-position: bottom;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 97.5%;
+    mask-image: url(stein.png);
+    mask-position: bottom;
+    mask-repeat: no-repeat;
+    mask-size: 97.5%;
+}
+
+.ipa{
+    -webkit-mask-image: url(beercan.png);
+    -webkit-mask-position: bottom;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 80%;
+    mask-image: url(beercan.png);
+    mask-position: bottom;
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+}
+
+.witbier{
+    -webkit-mask-image: url(pilsner.png);
+    -webkit-mask-position: bottom;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-image: url(pilsner.png);
+    mask-position: bottom;
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+}
+
+.belgian{
+    -webkit-mask-image: url(chalice.png);
+    -webkit-mask-position: bottom;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-image: url(chalice.png);
+    mask-position: bottom;
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+}
+
+.spicedAle{
+    -webkit-mask-image: url(pintglass.png);
+    -webkit-mask-position: bottom;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-image: url(pintglass.png);
+    mask-position: bottom;
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+}
+
+.shandy{
+    -webkit-mask-image: url(bottle.png);
+    -webkit-mask-position: bottom;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-image: url(bottle.png);
+    mask-position: bottom;
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+}
+
+.stout{
+    -webkit-mask-image: url(guinness.png);
+    -webkit-mask-position: bottom;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-image: url(guinness.png);
+    mask-position: bottom;
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+}
+
+.porter{
+    -webkit-mask-image: url(snifter.png);
+    -webkit-mask-position: bottom;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-image: url(snifter.png);
+    mask-position: bottom;
+    mask-repeat: no-repeat;
+    mask-size: 100%;
 }
 
 @keyframes hop{
