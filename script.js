@@ -45,13 +45,13 @@ fetch(opensheet_uri)
                 let randomSize = Math.random() * (10 - 5) + 5;
                 let randomLeft = Math.random() * (90 - 0) + 0;
                 let randomTop = Math.random() * (90 - 0) + 0;
-                let randomTime = Math.random() * (1000 - 100) + 100;
+                let randomTime = Math.random() * (500 - 100) + 100;
                 bubble.style.width = randomSize + "%";
                 bubble.style.height = randomSize + "%";
                 bubble.style.background = `hsla(46, 100%, ${lightness + 20}%, 1)`;
                 bubble.style.left = randomLeft + "%";
                 bubble.style.top = randomTop + "%";
-                bubble.style.animation = `animation: fizz ${randomTime}ms infinite`;
+                bubble.style.animation = `fizz ${randomTime}ms infinite`;
             };
         };
     })
