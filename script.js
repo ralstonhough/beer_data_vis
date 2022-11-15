@@ -47,7 +47,7 @@ fetch(opensheet_uri)
                 let randomTop = Math.random() * (90 - 0) + 0;
                 let randomTime = Math.random() * (1000 - 100) + 100;
                 bubble.style.width = randomSize + "%";
-                bubble.style.height = bubble.style.width;
+                bubble.style.height = randomSize + "%";
                 bubble.style.background = `hsla(46, 100%, ${lightness + 20}%, 1)`;
                 bubble.style.left = randomLeft + "%";
                 bubble.style.top = randomTop + "%";
